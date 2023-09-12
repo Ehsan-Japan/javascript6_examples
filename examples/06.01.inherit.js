@@ -11,3 +11,5 @@ function inherit(p) {
     f.prototype = p;                  // Set its prototype property to p.
     return new f();                   // Use f() to create an "heir" of p.
 }
+
+// this is a very good function!
